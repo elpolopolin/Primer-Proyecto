@@ -1,0 +1,22 @@
+ <center><h3 class="error">@ViewBag.Error</h3></center>
+
+<center>
+ <img src="https://st2.depositphotos.com/1001911/9975/v/950/depositphotos_99750092-stock-illustration-biting-lip-female-emoticon.jpg" alt="image" height="400px" width="400px">
+ <br>
+ <b>No soy hombre ni mujer, Soy Lo contrario a un lenguaje de programacion ¿que genero soy?</b>
+</center>
+
+<center>
+<form method="post" action='@Url.Action("Habitacion", "Escape")'>
+     <button class="btn btn-outline-warning" onclick="alert('Pista: No _ _ _ _ _ _ _')">PISTA</button>
+      <input type="text" class="form__field" placeholder="Respuesta" name="clave" id='Respuesta' style="width: 10em;" required />
+      <input type="hidden" name="sala"  value='@escape.EstadoJuego'>
+      <input type="submit" class="btn btn-outline-success" value="Enviar" >
+    </form>
+
+
+<div id="liveAlertPlaceholder">
+<button type="button" class="btn btn-primary" id="liveAlertBtn" onclick="alert('no binario')">Respuesta</button>
+</div>
+
+</center>

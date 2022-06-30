@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Primer_Proyecto.Models;
+using sala_de_escape.Models;
 
-namespace Primer_Proyecto.Controllers;
+namespace sala_de_escape.Controllers;
 
 public class HomeController : Controller
 {
@@ -19,6 +19,16 @@ public class HomeController : Controller
     }
 
     public IActionResult Privacy()
+    {
+        return View();
+    }
+    public IActionResult Tutorial()
+    {
+        return View();
+    }
+
+
+    public IActionResult Habitacion1()
     {
         return View();
     }

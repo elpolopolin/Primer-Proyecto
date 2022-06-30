@@ -1,4 +1,4 @@
-namespace Primer_Proyecto.Models;
+namespace sala_de_escape.Models;
 
 public class ErrorViewModel
 {

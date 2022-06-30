@@ -1,0 +1,21 @@
+ <center><h3 class="error">@ViewBag.Error</h3></center>
+
+<center>
+ <img src="https://media.lmcipolletti.com/p/5d1fdd73749fad53382f9898df6aec4d/adjuntos/195/imagenes/005/875/0005875038/1200x900/smart/carlos-menemjpg.jpg" alt="image" height="400px" width="400px">
+ <br>
+ <b>Palabra utilizadapara referirse a personas que traen consigo mala suerte o desgracias</b>
+</center>
+<br>
+<center>
+<form method="post" action='@Url.Action("Habitacion", "Escape")'>
+      <button class="btn btn-outline-warning" onclick="alert('Pista: No es Mufa')">PISTA</button>
+      <input type="text" class="form__field" placeholder="Respuesta" name="clave" id='Respuesta' style="width: 10em;" required />
+      <input type="hidden" name="sala"  value='@escape.EstadoJuego'>
+      <input type="submit" class="btn btn-outline-success" value="Enviar" >
+    </form>
+
+
+    <div id="liveAlertPlaceholder">
+<button type="button" class="btn btn-primary" id="liveAlertBtn" onclick="alert('yeta')">Respuesta</button>
+</div>
+  </center>

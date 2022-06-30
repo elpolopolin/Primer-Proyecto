@@ -1,0 +1,20 @@
+ <center><h3 class="error">@ViewBag.Error</h3></center>
+
+<center>
+ <img src="https://pbs.twimg.com/profile_images/1507870402974044170/mwGj40aM_400x400.jpg" alt="image" height="400px" width="400px">
+ <br>
+ <b>Equipo Argentino El cual Obtuvo Su Decenso Frente a Belgrano</b>
+</center>
+
+<center>
+<form method="post" action='@Url.Action("Habitacion", "Escape")'>
+     <button class="btn btn-outline-warning" onclick="alert('Pista: !Verifique su ortografia!')">PISTA</button>
+      <input type="text" class="form__field" placeholder="Respuesta" name="clave" id='Respuesta' style="width: 10em;" required />
+      <input type="hidden" name="sala"  value='@escape.EstadoJuego'>
+      <input type="submit" class="btn btn-outline-success" value="Enviar" >
+    </form>
+
+    <div id="liveAlertPlaceholder">
+<button type="button" class="btn btn-primary" id="liveAlertBtn" onclick="alert('riber')">Respuesta</button>
+</div>
+</center>

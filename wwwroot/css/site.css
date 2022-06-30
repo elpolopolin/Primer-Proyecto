@@ -1,5 +1,6 @@
 html {
   font-size: 14px;
+
 }
 
 @media (min-width: 768px) {
@@ -15,4 +16,37 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: #4e4e61;
+  color: white;
+}
+
+header {
+  background-color: #040475;
+}
+
+ul {
+  color: white;
+  font-weight: 1000;
+}
+
+.container-fluid
+{
+  background-color: #d45a5a;
+  color: white;
+}
+
+
+
+.carousel {
+  height: 300px;
+  width: 600px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 7%;
+  text-align: center;
+  padding: 10;
 }
