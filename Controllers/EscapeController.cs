@@ -17,7 +17,7 @@ namespace sala_de_escape.Controllers
         {
             _logger = logger;
         }
-      
+      //pene
         public IActionResult Index()
         {
             return View();
